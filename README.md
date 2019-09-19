@@ -26,10 +26,12 @@ The account that is already set up is: <br>
     username: cat <br>
     password: cats
 
-Note: I developed this project locally because the database was acting funky with glich. It seemed to work just fine locally (and I did test it in glich later), but if there are any weird problems please let me know.
+Note: I developed this project locally because the database was acting funky with glitch. It seemed to work just fine locally (and I did test it in glich later), but if there are any weird problems please let me know (like modify or delete not registering right away or something).
 
 ## Technical Achievements
 - **Tech Achievement 1**: I added a separate section for adding accounts/users to the database. It only allows the user to be added if the username is not already in the database.
+- **Tech Achievement 2**: I also added extra password security by storing them in salt and hash instead of just plain text.
 
 ### Design/Evaluation Achievements
-- **Design Achievement 1**: I tried to adapt the CSS Zen Garden template I like to better fit my index page. The original page was much longer. 
+- **Design Achievement 1**: I tried to adapt the CSS Zen Garden template I like to better fit my index page. The original page was much longer.
+- **Design Achievement 2**: I used http://mkweb.bcgsc.ca/colorblind/ and https://venngage.com/blog/color-blind-friendly-palette/#5 to learn more about color-blindness. It didn't look like I would need to change my homepage, but I adjusted all of the font, button, and table colors on the userpage template to be color-blind friendly (I used black instead of red-brown).
